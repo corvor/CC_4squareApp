@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FutureProof Careers | Diamondback Career Connections</title>
+  <meta name="description" content="Diamondback Career Connections: explore careers, understand AI, build your future.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='13' height='13' rx='3' fill='%23E8692E'/%3E%3Crect x='17' y='2' width='13' height='13' rx='3' fill='%231E9E6E'/%3E%3Crect x='2' y='17' width='13' height='13' rx='3' fill='%233D5F94'/%3E%3Crect x='17' y='17' width='13' height='13' rx='3' fill='%237C4DDB'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="org-bar">
+    <div class="wrap">
+      <p class="org-name">Diamondback <span>Career Connections</span></p>
+      <p class="org-note">A career exploration tool for students</p>
+    </div>
+  </div>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <div>
+          <p class="presented">Diamondback Career Connections presents</p>
+          <h1>FutureProof Careers</h1>
+          <p class="tagline">Explore careers. Understand AI. Build your future.</p>
+        </div>
+      </div>
+
+      <form id="search-form" class="search" autocomplete="off" novalidate>
+        <label for="career-input">What career are you interested in?</label>
+        <div class="search-row">
+          <div class="combo">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="career-input" type="text" maxlength="60" placeholder="Start typing, like nurse, engineer, or chef"
+                   role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="career-list" disabled>
+            <ul id="career-list" role="listbox" class="suggestions" hidden></ul>
+          </div>
+          <button id="explore-btn" type="submit" class="btn-primary" disabled>Explore My Future</button>
+        </div>
+        <p id="search-hint" class="hint" aria-live="polite">Loading the official career list…</p>
+        <div class="chips" id="example-chips" aria-label="Example careers"></div>
+      </form>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="intro" class="intro">
+      <h2 class="intro-title">How your four-square works</h2>
+      <p class="intro-text">Pick a career and we sort its real O*NET tasks by two questions: how much can AI do this today, and how much better are people at it?</p>
+      <div id="intro-grid" class="intro-grid"></div>
+    </section>
+
+    <section id="status" class="status" hidden aria-live="polite"></section>
+
+    <article id="results" class="report" hidden>
+      <header class="report-head">
+        <div>
+          <h2 id="occ-title"></h2>
+          <p class="report-sub">AI Exposure × Human Comparative Advantage</p>
+          <p class="report-intro">Where this career’s key tasks sit today, and what that means as you prepare for it.</p>
+        </div>
+        <button id="print-btn" type="button" class="btn-quiet">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-2M7 14h10v7H7z"/></svg>
+          Print or save PDF
+        </button>
+      </header>
+
+      <div id="demo-banner" class="demo-banner" hidden>Demo: this is a sample report written to preview the app. Task wording is simplified and placements are illustrative, not an AI analysis.</div>
+
+      <div class="board">
+        <div class="y-axis" aria-hidden="true">
+          <div class="y-end"><b>High</b><span>more likely to be done or sped up by AI</span></div>
+          <div class="y-mid"><b>AI Exposure</b><span>How much of the task current AI can do or speed up</span></div>
+          <div class="y-end"><b>Low</b><span>less likely to be done by AI</span></div>
+        </div>
+        <div id="quadrants" class="quadrants"></div>
+        <aside class="side">
+          <section class="side-card">
+            <h3>This career’s key tasks</h3>
+            <p class="side-sub" id="core-head"><b>Core tasks</b> <span class="src">(O*NET)</span></p>
+            <ul id="core-list" class="task-index"></ul>
+            <p class="side-sub" id="supp-head"><b>Supplemental tasks</b> <span class="src">(O*NET)</span></p>
+            <ul id="supp-list" class="task-index muted"></ul>
+          </section>
+          <section class="side-card">
+            <h3>Task category (color)</h3>
+            <ul id="legend" class="legend"></ul>
+          </section>
+        </aside>
+        <div class="x-axis" aria-hidden="true">
+          <div class="x-line"></div>
+          <div class="x-labels">
+            <div class="x-end"><b>Low</b><span>AI does this about as well</span></div>
+            <div class="x-mid"><b>Human Comparative Advantage</b><span>Where people do this better than AI: judgment, care, hands-on skill, trust</span></div>
+            <div class="x-end right"><b>High</b><span>people have a clear edge</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <section class="takeaways">
+          <div class="badge-icon blue" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg>
+          </div>
+          <div>
+            <h3>Key takeaways</h3>
+            <p id="summary" class="summary"></p>
+            <ul id="takeaways" class="checks"></ul>
+          </div>
+        </section>
+        <section class="steps">
+          <div class="badge-icon purple" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="m12 12 8-8M17 4h3v3"/></svg>
+          </div>
+          <div>
+            <h3>Next steps for you</h3>
+            <ol id="next-steps" class="numbered"></ol>
+          </div>
+        </section>
+      </div>
+
+      <footer class="report-foot">
+        <p id="how-to-read"><b>How to read this:</b> Task text comes from the official O*NET database. Where each task sits is an AI-generated estimate (Low / Moderate / High), not a measurement, and it can be wrong. High AI exposure does not mean a job will disappear. Many jobs change as tools change.</p>
+        <p id="occ-meta"></p>
+        <p class="print-brand">Diamondback Career Connections · FutureProof Careers</p>
+      </footer>
+    </article>
+  </main>
+
+  <dialog id="task-dialog" class="task-dialog" aria-labelledby="dlg-title">
+    <form method="dialog"><button class="dlg-close" aria-label="Close">×</button></form>
+    <div id="dlg-body"></div>
+  </dialog>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <p>This site includes information from the O*NET Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a> license. O*NET® is a trademark of USDOL/ETA. Task placements are AI-generated estimates and are not endorsed by USDOL/ETA.</p>
+      <p>FutureProof Careers is part of Diamondback Career Connections. No accounts, names, or personal information are collected.</p>
+    </div>
+  </footer>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

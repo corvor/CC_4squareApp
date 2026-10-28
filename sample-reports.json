@@ -1,0 +1,253 @@
+{
+  "_about": "Sample reports for the offline demo only. Task wording is simplified and the placements were written by hand to preview the app. They are not O*NET text and not an AI analysis. Ratings: L=Low, M=Moderate, H=High; '+' leans higher, '-' leans lower. Task format: [label, category, AI exposure, human advantage, task description, why it is placed here].",
+  "careers": [
+    {
+      "code": "29-1131.00",
+      "title": "Veterinarians",
+      "alsoCalled": ["Vet", "Veterinary Doctor", "Animal Doctor"],
+      "summary": "Most of a vet's work is hands-on care and trusted conversations, where people clearly lead. AI mainly helps with reading images, records, and paperwork.",
+      "takeaways": [
+        "Hands-on care and surgery stay firmly human for now.",
+        "AI is becoming a strong helper for reading X-rays and writing records.",
+        "Comforting worried owners and earning their trust is a lasting strength."
+      ],
+      "nextSteps": [
+        "Take biology and chemistry, including AP classes if your school offers them.",
+        "Volunteer at an animal shelter, clinic, or farm.",
+        "Join 4-H, FFA, or a pre-vet club.",
+        "Ask a local vet if you can shadow them for a day."
+      ],
+      "tasks": [
+        ["Examining animals to find illness or injury", "technical", "M-", "H+", "Examine animals to figure out what kind of illness or injury they have.", "AI can suggest possible causes from symptoms, but the hands-on exam and final judgment stay with the vet."],
+        ["Treating animals and performing surgery", "technical", "L-", "H+", "Treat sick or injured animals with medicine, bandages, setting bones, or surgery.", "Surgery and treatment need skilled hands and quick decisions that AI can't do."],
+        ["Reading X-rays and ultrasound images", "analysis", "H-", "H-", "Use X-ray and ultrasound machines and interpret the images.", "AI image tools are good at spotting patterns, and the vet confirms them using the whole picture of the animal."],
+        ["Advising owners on care and treatment", "people", "M+", "H+", "Advise owners about feeding, care, health conditions, and treatment options.", "AI can draft care instructions, but owners trust a real conversation with their vet."],
+        ["Supporting owners through end-of-life decisions", "people", "L-", "H+", "Counsel owners about a pet's death or end-of-life decisions.", "Compassion and trust during hard moments are deeply human."],
+        ["Giving vaccinations", "technical", "L-", "M-", "Vaccinate animals against diseases such as rabies.", "A routine hands-on procedure: AI can't do it, but it's also highly standardized."],
+        ["Collecting samples for lab tests", "technical", "L+", "M-", "Collect blood, urine, or tissue samples for testing.", "Physical and routine, so neither AI nor special human judgment stands out."],
+        ["Educating the public about animal diseases", "communication", "H-", "M+", "Teach the public about diseases that can spread from animals to people.", "AI can draft clear materials quickly, and vets add expertise and credibility."],
+        ["Training and supervising clinic staff", "leadership", "L+", "H-", "Train and supervise people who handle and care for animals.", "Coaching people and leading a team relies on human relationships."],
+        ["Keeping medical records", "admin", "H+", "L-", "Keep records of exams, treatments, and services.", "AI can write and organize records from notes or recordings very well."],
+        ["Scheduling, billing, and clinic paperwork", "admin", "H+", "L-", "Handle appointments, payments, and other business tasks.", "Scheduling and billing are routine digital work that software already handles."],
+        ["Researching animal diseases", "analysis", "H-", "H-", "Research diseases that animals could catch.", "AI speeds up reading studies and analyzing data, and scientists still frame the questions."]
+      ]
+    },
+    {
+      "code": "15-1252.00",
+      "title": "Software Developers",
+      "alsoCalled": ["Software Engineer", "Programmer", "App Developer"],
+      "summary": "Software development is one of the careers most touched by AI. Routine coding and testing can be sped up a lot, while design, judgment, and understanding people stay human.",
+      "takeaways": [
+        "AI tools already write a lot of routine code, so learning to use them well matters.",
+        "The most valuable developers decide what to build and make sure it really works.",
+        "Communication and teamwork matter as much as coding skill."
+      ],
+      "nextSteps": [
+        "Take computer science and math classes, including AP Computer Science if offered.",
+        "Build a small app or website for a club or local group.",
+        "Join a robotics team or coding club, or enter a hackathon.",
+        "Practice explaining your code to someone who doesn't code."
+      ],
+      "tasks": [
+        ["Writing routine code", "technical", "H+", "M-", "Write code for standard features based on a plan.", "AI coding assistants can produce much of this code, and people review and adjust it."],
+        ["Designing how a software system fits together", "analysis", "M+", "H+", "Plan how the parts of a software system connect and work together.", "AI can suggest options, but weighing trade-offs for a real project takes experienced judgment."],
+        ["Understanding what users need", "people", "M-", "H+", "Talk with users and clients to learn what the software must do.", "Listening, asking good questions, and reading between the lines are human strengths."],
+        ["Fixing bugs and errors", "technical", "H-", "M+", "Find and fix problems in software.", "AI can spot many bugs, and tricky ones still need a developer who understands the whole system."],
+        ["Writing technical documentation", "communication", "H+", "L+", "Write guides that explain how the software works.", "AI can draft clear documentation from code and notes."],
+        ["Testing software for problems", "analysis", "H+", "M-", "Write and run tests to make sure software works.", "AI can generate and run many tests automatically."],
+        ["Reviewing teammates' code", "analysis", "H-", "H-", "Check other developers' code for quality and mistakes.", "AI flags issues fast, and people judge whether the code fits the team's goals."],
+        ["Deciding what to build and why", "leadership", "M-", "H+", "Decide which features matter most and why.", "Setting direction depends on understanding people, business, and priorities."],
+        ["Estimating time and cost of projects", "analysis", "M+", "M+", "Estimate how long work will take and what it will cost.", "AI can use past data to help, but estimates depend on knowing the team."],
+        ["Keeping software secure", "technical", "H-", "H-", "Protect software and data from attacks.", "AI scans for known weaknesses, and people think like attackers and decide on fixes."],
+        ["Updating and maintaining older software", "technical", "H-", "M-", "Update older code so it keeps working.", "AI tools are good at reading and modernizing old code."],
+        ["Working with teams and clients on goals", "people", "L+", "H+", "Meet with teammates and clients to plan and agree on goals.", "Building trust and agreement among people is a human skill."]
+      ]
+    },
+    {
+      "code": "27-3031.00",
+      "title": "Public Relations Specialists",
+      "alsoCalled": ["Corporate Communications Specialist", "Communications Specialist", "Media Relations Specialist"],
+      "summary": "This career mixes routine writing that AI handles well with relationship and judgment work where people clearly lead.",
+      "takeaways": [
+        "AI can speed up drafting, monitoring, and basic reporting a lot.",
+        "The biggest career value is in strategy, trust, and handling tough moments.",
+        "Strong writers who also build relationships will stand out."
+      ],
+      "nextSteps": [
+        "Join the school newspaper, yearbook, or a club's social media team.",
+        "Take English, speech, and a statistics or data class.",
+        "Practice writing a press release for a school event.",
+        "Interview someone who works in communications about their week."
+      ],
+      "tasks": [
+        ["Writing press releases and articles", "communication", "H+", "M-", "Write press releases and other materials for the media.", "AI writes solid first drafts quickly, and people check the facts, tone, and message."],
+        ["Monitoring news and social media coverage", "analysis", "H+", "L-", "Track what news outlets and social media say about the organization.", "AI tools can scan huge amounts of coverage and sum up the mood."],
+        ["Posting updates to websites and social media", "communication", "H+", "L+", "Post and update content on the website and social media.", "Scheduling and formatting posts is routine digital work."],
+        ["Compiling routine reports and metrics", "admin", "H-", "L+", "Gather numbers and write regular reports on results.", "AI can pull data together and summarize it."],
+        ["Planning communication campaigns", "leadership", "H-", "H+", "Plan programs that shape how the public sees the organization.", "AI helps brainstorm and research, and people set the strategy and make the calls."],
+        ["Writing speeches and executive messages", "communication", "H-", "M+", "Prepare speeches and messages for leaders.", "AI drafts quickly, but capturing a leader's voice and the right moment takes human judgment."],
+        ["Researching audiences and public opinion", "analysis", "H+", "M+", "Study what audiences think and care about.", "AI analyzes surveys and online data fast, and people decide what it means."],
+        ["Building relationships with journalists", "people", "L-", "H+", "Build and keep good relationships with reporters and community groups.", "Trust is built person to person over time."],
+        ["Advising leaders during a crisis", "leadership", "M-", "H+", "Advise leaders on what to say and do when something goes wrong.", "High-stakes moments need calm judgment and trust."],
+        ["Representing the organization at events", "people", "L-", "H+", "Speak for the organization at public events.", "Being present and personable in public is a human strength."],
+        ["Coordinating event logistics", "admin", "L+", "M-", "Arrange appearances, exhibits, and events.", "Mostly planning and follow-up; tools help some, and it isn't a strong human edge."],
+        ["Filing and distributing materials", "admin", "M-", "L-", "Send out and keep track of materials.", "Simple, repeatable work that's easy to streamline."]
+      ]
+    },
+    {
+      "code": "29-1141.00",
+      "title": "Registered Nurses",
+      "alsoCalled": ["Nurse", "RN", "Staff Nurse"],
+      "summary": "Nursing is mostly hands-on care, fast decisions, and human connection, where people clearly lead. AI is growing as a helper for charting, monitoring, and catching errors.",
+      "takeaways": [
+        "Most nursing tasks land in Human Strengths.",
+        "AI helps with charting and alerts, which can free up more time for patients.",
+        "Calm communication under pressure is a core nursing skill."
+      ],
+      "nextSteps": [
+        "Take biology, chemistry, anatomy, and health science if offered.",
+        "Get certified in CPR or first aid.",
+        "Volunteer at a hospital, clinic, or senior center.",
+        "Look into nurse aide (CNA) programs or a health careers club like HOSA."
+      ],
+      "tasks": [
+        ["Giving medications and treatments", "technical", "L-", "H+", "Give patients medicines and treatments safely.", "Hands-on care and constant watchfulness are human work."],
+        ["Monitoring patients' condition", "analysis", "H-", "H-", "Watch patients' vital signs and changes in their condition.", "Monitors and AI alerts catch warning signs, and nurses notice what machines miss."],
+        ["Recording patient information", "admin", "H+", "L-", "Record symptoms, care given, and how patients respond.", "AI can turn notes or speech into charts quickly."],
+        ["Comforting patients and families", "people", "L-", "H+", "Support patients and families who are scared or upset.", "Empathy and presence can't be automated."],
+        ["Teaching patients how to care for themselves", "communication", "M+", "H-", "Explain how to manage health at home.", "AI can make clear handouts, and nurses tailor the message to each person."],
+        ["Responding to emergencies", "technical", "L-", "H+", "Act fast when a patient's condition suddenly gets worse.", "Quick physical action and judgment under pressure are human."],
+        ["Coordinating care with doctors and teams", "people", "M-", "H+", "Work with doctors and other staff on each patient's care.", "Teamwork and speaking up for patients depend on people."],
+        ["Checking medication orders for errors", "analysis", "H+", "M+", "Double-check medicine orders for mistakes.", "Software is strong at catching dose and drug-interaction errors, and nurses make the final check."],
+        ["Planning each patient's care", "analysis", "M+", "H-", "Create a care plan for each patient.", "AI can suggest standard plans, and nurses adjust them for the real person."],
+        ["Preparing rooms and equipment", "technical", "L+", "L+", "Set up rooms, supplies, and equipment.", "Physical but routine work; neither side stands out."],
+        ["Ordering and tracking supplies", "admin", "H-", "L-", "Order and keep track of medical supplies.", "Inventory systems can handle much of this."],
+        ["Supervising aides and newer nurses", "leadership", "L+", "H-", "Guide and supervise aides and less experienced nurses.", "Mentoring people is human work."]
+      ]
+    },
+    {
+      "code": "47-2111.00",
+      "title": "Electricians",
+      "alsoCalled": ["Electrician", "Industrial Electrician", "Maintenance Electrician"],
+      "summary": "Electrical work is hands-on and happens in real buildings, so most tasks are Human Strengths. AI mostly helps with planning, code lookups, and paperwork.",
+      "takeaways": [
+        "Hands-on skilled trades like this have low AI exposure.",
+        "New work in areas like solar panels and EV chargers is growing.",
+        "Strong math and safety habits matter every day."
+      ],
+      "nextSteps": [
+        "Take algebra, physics, and any shop or construction classes.",
+        "Look into career and technical education (CTE) programs for electrical trades.",
+        "Ask about pre-apprenticeship or apprenticeship programs near you.",
+        "Build a simple circuit kit project at home or school."
+      ],
+      "tasks": [
+        ["Installing wiring and electrical systems", "technical", "L-", "H+", "Install wiring, outlets, panels, and fixtures.", "Skilled physical work in real buildings is far beyond today's AI."],
+        ["Reading blueprints and wiring diagrams", "analysis", "M+", "M+", "Read plans and diagrams to know what to build.", "AI can help read plans, and electricians match them to the real site."],
+        ["Finding and fixing electrical problems", "technical", "M-", "H+", "Track down and repair electrical problems.", "AI can suggest causes, but hands-on troubleshooting is a human skill."],
+        ["Testing circuits with meters and tools", "technical", "L+", "H-", "Test circuits with meters to check they're safe and working.", "Hands-on testing needs a person on site."],
+        ["Following safety codes and regulations", "analysis", "H-", "M+", "Make sure work meets electrical codes.", "AI can look up code rules quickly, and electricians apply them on the job."],
+        ["Planning layouts and estimating materials", "analysis", "H-", "M-", "Plan where wiring goes and how much material is needed.", "Software and AI can do much of the layout math and material lists."],
+        ["Installing solar panels and EV chargers", "technical", "L-", "H+", "Install solar panels, batteries, and car chargers.", "A growing area of hands-on work."],
+        ["Working safely in tight or high spaces", "technical", "L-", "H+", "Work safely on ladders, in attics, and in crawl spaces.", "Physical skill and safety awareness are human."],
+        ["Explaining work and costs to customers", "people", "M+", "H-", "Explain repairs, options, and costs to customers.", "AI can help write quotes, and trust comes from talking with the electrician."],
+        ["Writing reports and permit paperwork", "admin", "H+", "L-", "Fill out permits, invoices, and job reports.", "Routine paperwork is easy to automate."],
+        ["Maintaining equipment on a schedule", "technical", "L+", "M-", "Do routine checks and upkeep on electrical equipment.", "Routine and physical, so neither side stands out."],
+        ["Training apprentices", "leadership", "L-", "H+", "Teach and supervise apprentices on the job.", "Passing on hands-on skill is human work."]
+      ]
+    },
+    {
+      "code": "17-2141.00",
+      "title": "Mechanical Engineers",
+      "alsoCalled": ["Design Engineer", "Product Engineer", "Mechanical Design Engineer"],
+      "summary": "Mechanical engineering mixes heavy computer work that AI can speed up with hands-on testing and teamwork where people lead.",
+      "takeaways": [
+        "AI is speeding up calculations, simulations, and reports.",
+        "Creative problem solving and real-world testing stay human strengths.",
+        "Engineers who use AI tools well can design faster and better."
+      ],
+      "nextSteps": [
+        "Take physics, calculus, and any engineering or CAD classes.",
+        "Join robotics, Science Olympiad, or an engineering club.",
+        "Learn a free CAD tool and design something you can 3D print.",
+        "Enter a science fair with a build-and-test project."
+      ],
+      "tasks": [
+        ["Designing machines and parts with CAD", "technical", "H-", "H-", "Design machines and parts using computer-aided design (CAD) software.", "AI design tools suggest shapes and options, and engineers decide what will actually work."],
+        ["Running calculations and simulations", "analysis", "H+", "M-", "Run calculations and computer simulations of how designs will perform.", "Computers and AI do this math faster than people."],
+        ["Testing prototypes", "technical", "M-", "H-", "Build and test early versions of a design.", "Hands-on testing and noticing what went wrong are human strengths."],
+        ["Solving design problems", "analysis", "M+", "H+", "Figure out why a design isn't working and how to fix it.", "AI offers ideas, and framing the real problem takes human creativity."],
+        ["Writing technical reports and specs", "communication", "H+", "M-", "Write reports and detailed specifications.", "AI can draft technical writing from data and notes."],
+        ["Researching materials and methods", "analysis", "H-", "M+", "Research materials and ways to make things.", "AI speeds up research, and engineers judge what fits the project."],
+        ["Working with manufacturing teams", "people", "L+", "H+", "Work with the people who build the product.", "Collaboration on the factory floor is human."],
+        ["Inspecting equipment on site", "technical", "L+", "H-", "Inspect machines and equipment in person.", "On-site inspection needs a person there."],
+        ["Estimating project costs and timelines", "analysis", "H-", "M-", "Estimate how much projects will cost and how long they'll take.", "Software and AI handle much of the estimating."],
+        ["Leading engineering projects", "leadership", "L+", "H+", "Lead teams and projects from idea to finished product.", "Leadership and judgment are human."],
+        ["Checking designs meet safety standards", "analysis", "M+", "H-", "Make sure designs meet safety rules and standards.", "AI can check against rules, and engineers carry the responsibility and judgment."],
+        ["Documenting test data", "admin", "H+", "L-", "Record and organize test results.", "Data entry and organizing are easy to automate."]
+      ]
+    },
+    {
+      "code": "23-1011.00",
+      "title": "Lawyers",
+      "alsoCalled": ["Attorney", "Counsel", "Litigator"],
+      "summary": "AI can already do a lot of legal research and document work. Advising clients, arguing in court, and negotiating stay deeply human.",
+      "takeaways": [
+        "Research and document review are changing fast because of AI.",
+        "Judgment, persuasion, and client trust are the lasting core of the job.",
+        "Strong writers and speakers who use AI well will have an edge."
+      ],
+      "nextSteps": [
+        "Take English, government, history, and speech or debate.",
+        "Join debate, mock trial, or Model UN.",
+        "Write opinion pieces for the school paper.",
+        "Sit in on a public court hearing, or ask a lawyer about their work."
+      ],
+      "tasks": [
+        ["Researching laws and past cases", "analysis", "H+", "M-", "Research laws and past court decisions.", "AI legal research tools find relevant cases quickly, and lawyers verify them."],
+        ["Drafting contracts and legal documents", "communication", "H+", "M+", "Write contracts, wills, and other legal documents.", "AI drafts quickly, and lawyers tailor documents and catch risks."],
+        ["Advising clients on legal options", "people", "M-", "H+", "Explain legal options and give advice to clients.", "Clients rely on a lawyer's judgment and trust."],
+        ["Arguing cases in court", "communication", "L-", "H+", "Present cases and argue in front of judges and juries.", "Persuading people in a courtroom is human work."],
+        ["Negotiating settlements and deals", "people", "L+", "H+", "Negotiate agreements with the other side.", "Reading people and building agreement are human strengths."],
+        ["Reviewing documents for evidence", "analysis", "H+", "L+", "Review large amounts of documents for evidence.", "AI can sort and flag documents much faster than people."],
+        ["Interviewing clients and witnesses", "people", "L+", "H-", "Interview clients and witnesses to learn the facts.", "Building trust and noticing what people don't say is human."],
+        ["Building a case strategy", "leadership", "M+", "H+", "Decide the overall plan for a case.", "AI helps explore options, and strategy needs human judgment."],
+        ["Summarizing case files", "admin", "H+", "L-", "Summarize long case files and records.", "Summarizing documents is a strong AI skill."],
+        ["Checking documents for compliance", "analysis", "H-", "M-", "Check documents against rules and regulations.", "AI can check documents against rules quickly."],
+        ["Writing legal arguments (briefs)", "communication", "H-", "H-", "Write formal legal arguments for the court.", "AI can draft, and lawyers must shape the argument and check every source."],
+        ["Managing billing and case deadlines", "admin", "M+", "L-", "Track billing, filings, and deadlines.", "Routine tracking that software handles well."]
+      ]
+    },
+    {
+      "code": "27-1024.00",
+      "title": "Graphic Designers",
+      "alsoCalled": ["Graphic Artist", "Designer", "Visual Designer"],
+      "summary": "AI image and design tools are changing graphic design quickly. Understanding clients, creative direction, and judging quality stay human.",
+      "takeaways": [
+        "AI can quickly make images, resize designs, and prepare files.",
+        "Creative direction and understanding the client are where designers stand out.",
+        "A strong portfolio and good taste matter more than ever."
+      ],
+      "nextSteps": [
+        "Take art, digital design, and photography classes.",
+        "Build a portfolio of 6 to 8 of your best pieces.",
+        "Design posters or social posts for a school club or event.",
+        "Try free design tools and study designs you admire."
+      ],
+      "tasks": [
+        ["Creating design concepts and sample layouts", "communication", "H-", "H-", "Create design ideas, concepts, and sample layouts.", "AI can generate many options, and designers choose and shape the right one."],
+        ["Making images with design software", "technical", "H+", "M-", "Create new images using design software.", "AI image tools can create images from a description."],
+        ["Choosing typefaces and arranging layouts", "communication", "H+", "M+", "Choose fonts and arrange text and images.", "AI suggests layouts, and designers judge what looks right."],
+        ["Meeting clients to understand what they need", "people", "L+", "H+", "Meet with clients to learn their goals.", "Understanding people's real goals is human."],
+        ["Researching the target audience", "analysis", "H-", "M+", "Research who the design is for.", "AI speeds up research, and designers interpret it."],
+        ["Preparing files for printing", "admin", "H+", "L-", "Prepare digital files for printing.", "Routine technical steps that software can automate."],
+        ["Designing logos and brand identities", "communication", "M+", "H+", "Design logos and the look of a brand.", "AI helps explore ideas, and meaning and originality come from people."],
+        ["Reviewing work and suggesting improvements", "leadership", "M-", "H-", "Review designs and suggest improvements.", "Taste and creative judgment are human strengths."],
+        ["Resizing designs for different formats", "technical", "H+", "L-", "Adjust designs for different sizes and platforms.", "AI tools can resize and reformat automatically."],
+        ["Presenting ideas and handling feedback", "people", "L+", "H-", "Present designs to clients and respond to feedback.", "Persuading and listening are human."],
+        ["Keeping an archive of images and past work", "admin", "M+", "L-", "Keep an organized archive of images and past work.", "Organizing files is easy to automate."],
+        ["Instructing printers and production staff", "people", "L+", "M-", "Give instructions to the people who print and produce designs.", "Routine coordination; neither side stands out."]
+      ]
+    }
+  ]
+}

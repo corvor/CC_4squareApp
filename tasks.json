@@ -1,0 +1,37 @@
+{
+  // In VS Code: Terminal menu > Run Task... then pick one of these.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Run DEMO (offline, no API key)",
+      "type": "shell",
+      "command": "npm run demo",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true }
+    },
+    {
+      "label": "2. Run FULL APP (needs API key + internet)",
+      "type": "shell",
+      "command": "npm start",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true }
+    },
+    {
+      "label": "3. Run tests",
+      "type": "shell",
+      "command": "npm test",
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    },
+    {
+      "label": "4. Re-download O*NET career list",
+      "type": "shell",
+      "command": "npm run setup",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ]
+}

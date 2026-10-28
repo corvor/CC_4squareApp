@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "editor.tabSize": 2,
+  "files.associations": {
+    ".env.example": "properties",
+    ".env.local": "properties"
+  }
+}

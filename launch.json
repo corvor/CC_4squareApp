@@ -1,0 +1,25 @@
+{
+  // In VS Code: open the Run and Debug panel (the play icon on the left), pick one, and press the green arrow (or F5).
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run DEMO (offline, no API key)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/dev-server.mjs",
+      "args": ["--demo"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run FULL APP (needs API key + internet)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/dev-server.mjs",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

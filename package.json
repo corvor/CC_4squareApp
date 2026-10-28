@@ -1,0 +1,17 @@
+{
+  "name": "cc-4square-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diamondback Career Connections: FutureProof Careers four-square (AI Exposure x Human Comparative Advantage), built on O*NET.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node scripts/dev-server.mjs --demo",
+    "start": "node scripts/dev-server.mjs",
+    "setup": "node scripts/build-onet.mjs",
+    "build": "node scripts/build-onet.mjs",
+    "test": "node --test tests/app.test.js"
+  }
+}
